@@ -28,6 +28,6 @@ Aclaraciones y consideraciones para la resolución del ejercicio:
   y hacer _context.Ordenes, nos estamos trayendo todos los datos de la tabla a memoria y afectaría el rendimiento de la aplicación.
 - Se devuelven respuestas de tipo Ok o BadRequest para que ya incluyan los statuscode.
 - En el archivo appsettings.json esta la cadena de conexión por si necesitan cambiarla
-- Adjunto el script de la base de datos en la solución (El script crea la base de datos PPIChallengeTest, verificar la cadena de conexión)
+- Adjunto el script de la base de datos en la solución
 
   Cualquier consulta o duda por favor escribanme a izaguirrea17@gmail.com
