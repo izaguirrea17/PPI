@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPIChallenge", "PPIChallenge\PPIChallenge.csproj", "{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{706CDEC0-C8E3-47EA-8558-1BC473C5D050}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\PPIChallengeData.sql = ..\..\..\Documents\PPIChallengeData.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
