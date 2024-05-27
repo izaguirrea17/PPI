@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PPIChallenge", "PPIChallenge\PPIChallenge.csproj", "{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D0D0F0-4FCA-45FD-85A4-230AFD835332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E0FF8E-C46D-45CC-82BB-8F2DC41B1DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B3FF62-5B44-49F9-A949-E25C69A0114F}
+	EndGlobalSection
+EndGlobal
