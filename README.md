@@ -3,10 +3,10 @@ Aclaraciones y consideraciones para la resolución del ejercicio:
 - La arquitectura de la aplicación y el diagrama de base de datos se puede ver en el siguiente link
   https://docs.google.com/document/d/14sbacZWKeUDFi8bSFrCO4iL-qdC1E6akQkWwfnXRegY/edit?usp=sharing
 - En la clase program, en la linea 10 se configura el repositorio, en este caso SqlRepositorio que
-  apunta a una base dedatos de SQL Server, acá con un simple cambio se puede configurar el repositorio
+  apunta a una base de datos de SQL Server, acá con un simple cambio se puede configurar el repositorio
   que se quiera usar.
 - Para ejecutar los tests, setear en la clase program la linea 11 para usar el FakeRepositorio, tiene datos mockeados para probar la aplicación.
-- Para usar la aplicación, setear en la clase program para usar SqlRepositorio, adjunto script para crear la base de datos y datos de prueba.
+- Para usar la aplicación, setear en la clase program para usar SqlRepositorio, adjunto script para crear la base de datos.
 - Se aplicó el patrón DTO, por eso se agregaron clases Data Transfer Object, para adaptar las solicitudes y respuestas de la
   aplicación para cada caso, por ejemplo, según la minuta lo único que puede modificarse de una orden existente es el estado,
   por eso el OrdenActualizarDto tiene solo idorden y estado, para que el usuario envíe solo esos datos, y se devuelve el objeto
@@ -22,12 +22,12 @@ Aclaraciones y consideraciones para la resolución del ejercicio:
 - El controller se comunica con el repositorio y este con la fuente de datos, si hubiera sido una aplicación más grande, con muchos
   métodos que recolecten datos, se podría haber creado una clase Servicios que esté entre el controller y el repositorio, no lo hice
   esta vez por ser una aplicación muy pequeña.
-- Use entityFramwork para recolectar los datos de la base de datos, al igual que en el item anterior, si la aplicación hubiera manejado
+- Usé entityFramwork para recolectar los datos de la base de datos, al igual que en el item anterior, si la aplicación hubiera manejado
   grandes volumenes de datos, por ejemplo, una tabla con millones de registros de ordenes, hubieramos tenido que hacer llamadas a procedimientos
   de SQL para que traigan los datos filtrados, porque sino, de la manera que se está haciendo ahora, al usar linkQ por ejemplo en una instrucción
   y hacer _context.Ordenes, nos estamos trayendo todos los datos de la tabla a memoria y afectaría el rendimiento de la aplicación.
 - Se devuelven respuestas de tipo Ok o BadRequest para que ya incluyan los statuscode.
 - En el archivo appsettings.json esta la cadena de conexión por si necesitan cambiarla
-- Adjunto el script de la base de datos en la solución
+- Adjunto el script de la base de datos en la solución (El script crea la base de datos PPIChallengeTest, verificar la cadena de conexión)
 
-  Cualquier consulta escribanme a izaguirrea17@gmail.com
+  Cualquier consulta o duda por favor escribanme a izaguirrea17@gmail.com
