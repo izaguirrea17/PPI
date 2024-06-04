@@ -31,3 +31,18 @@ Aclaraciones y consideraciones para la resolución del ejercicio:
 - Adjunto el script de la base de datos en la solución
 
   Cualquier consulta o duda por favor escribanme a izaguirrea17@gmail.com
+
+
+La solución cumple con todas las funcionalidades requeridas.
+
+El diseño y la arquitectura son aceptables, pero podrían mejorarse.
+
+Se podría haber aplicado Restful para el naming de los endpoint.
+
+Se debería haber generado la clase de servicio más allá del tamaño de la aplicación.
+
+El esquema de base de datos es aceptable, pero presenta algunas deficiencias menores.
+
+Se observa un uso limitado de patrones de diseño.
+
+El código es claro, organizado y sigue buenas prácticas de desarrollo en C#/.NET Core.
